@@ -1,0 +1,221 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.list{
+    max-height: 60vh;
+    overflow: auto;
+}
+
+.listItem{
+   list-style: none;
+   text-align: center;
+}
+
+.dBtn{
+    font-size: 20pt;
+    border: none;
+    background-color: white;
+}
+
+
+.commentCont{
+  text-align: left;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.usersComment{
+  display: flex;
+  gap: 5vw;
+}
+
+ .comment{
+  max-width: 28vw;
+  background-color: rgb(234, 232, 232);
+  display: flex;
+  padding: 4%;
+ 
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+ }
+
+.userName{
+  margin-top: 2vh;
+  width: 6vw;
+  font-weight: bolder;
+}
+
+.dateWrapper{
+  width: 20vw;
+font-size: 10pt;
+}
+
+.formBlock{
+  border-top: solid 1px rgb(194, 187, 187);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+
+#formText{
+  padding: 5px;
+  resize: none;
+  overflow-y: hidden;
+}
+
+#commentSub{
+  margin-top: 2vh;
+  background-color: rgb(14, 176, 240);
+    border: solid 1px black;
+    color: black;
+}
+
+.formBlock > textarea{
+  margin-top: 2vh;
+ padding-left: 5px;
+ width: 20vw;
+ font-size: 13pt;
+}
+
+.commentsLikes{
+    min-height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .commentsLikes > button{
+    margin-bottom: 2vh;
+      border: none;
+      background-color: white;
+      font-size: 12pt;
+  }
+  .commentsLikes > button:hover {
+      text-decoration: underline;
+  }
+
+  .LikeOrComment{
+    border-top:  solid 1px rgb(194, 187, 187);
+    border-bottom: none;
+    min-height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  
+  .commentBtn:hover{
+      text-decoration: underline;
+      color: black;
+  }
+  .commentBtn{
+    color: black;
+    text-decoration: none;
+    font-size: larger;
+  }
+
+  .commentDelBtn:hover{
+    text-decoration: underline;
+    color: red;
+  }
+
+  .commentDelBtn{
+    color: red;
+    text-decoration: none;
+    font-size: larger;
+
+  }
+
+  .likeBtn:hover{
+    color: black;
+    text-decoration: underline
+}
+
+.likeBtn{
+  color: black;
+  text-decoration: none;
+  font-size: larger;
+}
+
+
+@media only screen and (max-width: 1024px){
+  .formBlock > textArea{
+    width: 40vw;
+  }
+
+  .userName{
+   width: 13vw;
+  }
+
+ .comment{
+  max-width: 50vw;
+ }
+
+ .formBlock{
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+
+}
+
+@media only screen and (max-width: 780px){
+  .usersComment{
+    gap: 15vw;
+  }
+
+}
+
+@media only screen and (max-width: 480px){
+
+  .list{
+    padding-left: 0px;
+}
+  
+  .formBlock > textArea{
+    width: 40vw;
+  }
+
+  .usersComment{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5vw;
+  }
+
+
+  
+
+  .dateWrapper{
+  width: 40vw;
+  font-size: 10pt;
+  }
+  
+  .userName{
+    margin-right: 9vw;
+    width: 14vw;
+   }
+ 
+  .comment{
+   max-width: 75vw;
+
+   padding: 5%;
+  }
+ 
+  .formBlock{
+   padding-top: 10px;
+   padding-bottom: 30px;
+ }
+ 
+
+
+
+}

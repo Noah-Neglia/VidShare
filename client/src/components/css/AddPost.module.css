@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+}
+
+.container > h2{
+    text-align: center;
+    color: rgb(14, 176, 240);
+}
+
+.postform{
+    min-height: 25vh;
+    width: 45vw;
+    gap: 3vh;
+}
+
+.formWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+}
+
+.formBlock{
+    padding-left: 2.5vw;
+    display: flex;
+    align-items: center;
+    gap: 3vw;
+}
+
+.contentRecieved{
+    height: 3vh;
+    width: 1.8vw;
+    background-color: rgb(68, 240, 21);
+    border: solid 1px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.valWrapper{
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+}
+.validations{
+    color: red;
+  }
+.capValidations{
+    color: red;
+  }
+
+#addVideo{
+    background-color: rgb(14, 176, 240);
+    border: solid 1px black;
+    color: black;
+
+}
+
+#submitBtn{
+    background-color: rgb(14, 176, 240);
+      border: solid 1px black;
+      color: black;
+  }
+  #captionBox{
+    width: 20vw;
+    padding: 5px;
+    resize: none;
+    overflow-y: hidden;
+}
+  
+.none{
+    display: none;
+}
+
+@media only screen and (max-width: 1024px){
+
+    .postform{
+        margin-left: 12%;
+        margin-top: 5vh;
+        width: 90vw;
+        gap: 3vh;
+    }
+
+    .contentRecieved{
+        width: 4vw;
+    }
+
+    
+    .formBlock{
+        gap: 5vw;
+    }
+
+    #captionBox{
+        width: 40vw;
+    }
+}
+
+
+@media only screen and (max-width: 480px){
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        gap: 5vh;
+     }
+
+    .postform{
+        margin-right: 20vw;
+        width: 90vw;
+    }
+
+    .contentRecieved{
+        width: 5vw;
+    }
+
+    #captionBox{
+        width: 40vw;
+    }
+
+}

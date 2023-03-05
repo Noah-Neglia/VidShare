@@ -1,0 +1,24 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.action{
+    color: grey;
+}
+
+@media only screen and (max-width: 1024px){
+  .action{
+      margin-right: 2vw;
+  }
+
+
+  
+}
+
+@media only screen and (max-width: 480px){
+  .action{
+      font-size: 10pt;
+  }
+
+}

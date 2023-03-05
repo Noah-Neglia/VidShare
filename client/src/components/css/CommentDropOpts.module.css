@@ -1,0 +1,139 @@
+
+.dropParent{
+    position: relative;
+    bottom: 2vh;
+    left: 12vw;
+    background-color: transparent;
+    width: 1vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.list{
+   position: relative;
+   padding-left: 0px;
+    margin-left: 26vw;
+    min-height: 7.5vh;
+    width: 25vw;
+   border: solid 1px rgb(206, 204, 204);
+   background-color: white;
+   border-bottom-left-radius: 20px;
+   border-bottom-right-radius: 20px;
+   border-top-right-radius: 20px;
+}
+.listItem{
+   list-style: none;
+   text-align: center;
+   padding-top: 13px;
+   display: flex;
+   justify-content: space-evenly;
+
+}
+
+.formItem{
+    list-style: none;
+    justify-content: center;
+}
+
+.formBlock{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    height: 16vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.dBtn{
+    font-size: 20pt;
+    border: none;
+    background-color: transparent;
+}
+
+
+.commentBtn:hover{
+    text-decoration: underline;
+    color: black;
+}
+.commentBtn{
+  color: black;
+  text-decoration: none;
+  font-size: larger;
+}
+
+.commentDelBtn:hover{
+  text-decoration: underline;
+  color: red;
+}
+
+  .commentDelBtn{
+    color: red;
+    text-decoration: none;
+    font-size: larger;
+  }
+
+  .formBlock > textarea{
+   padding-left: 5px;
+   width: 20vw;
+   font-size: 13pt;
+  }
+   
+  #commentSub{
+    margin-top: 2vh;
+    background-color: rgb(83, 188, 13);
+      border: solid 1px black;
+      color: black;
+  }
+  #commentDel{
+    margin-top: 2vh;
+    background-color: rgb(236, 50, 50);
+      border: solid 1px black;
+      color: black;
+  }
+
+
+@media only screen and (max-width: 1024px){
+  
+  .list{
+    position: relative;
+      margin-left: 48vw;
+      min-height: 7.5vh;
+      width: 40vw;
+  }
+
+  .formBlock > textarea{
+    width: 35vw;
+   }
+
+
+}
+@media only screen and (max-width: 480px){
+  
+  .list{
+    position: relative;
+      margin-left: 48vw;
+      min-height: 7.5vh;
+      width: 45vw;
+  }
+
+  .formBlock{
+    height: 20vh;
+  }
+
+  .formBlock > textarea{
+    width: 35vw;
+   }
+
+  .formBlock > span{
+    width: 35vw;
+   }
+
+   #commentDel{
+    margin-top: 1vh;
+   }
+
+
+}

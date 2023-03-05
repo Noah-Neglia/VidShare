@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    height: 50vh;
+    overflow: auto;
+}
+
+.list{
+   width: 40vw;
+}
+
+.list > li{
+    padding: 10px;
+    list-style: none;
+    border-top: solid .5px rgb(194, 187, 187);
+    border-bottom: solid .5px rgb(194, 187, 187);
+
+}
+
+.dateFlexer{
+    display: flex;
+    justify-content: space-between;
+    font-size: 11pt;
+}
+
+.dateWrapper{
+    font-size: 10pt;
+}
+
+.noActivityWrapper{
+    display: flex;
+    justify-content: center;
+
+}
+
+.noActivity{
+    font-size: 24pt
+}
+
+@media only screen and (max-width: 1024px){
+    .list{
+        width: 70vw;
+     }
+
+    }
+
+  
+
+@media only screen and (max-width: 480px){
+    .list{
+        width: 90vw;
+    }
+
+    }

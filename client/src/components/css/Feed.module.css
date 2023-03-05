@@ -1,0 +1,133 @@
+*{
+    margin: 0px;
+    padding:  0px;
+}
+
+.noPosts{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24pt;
+    
+}
+
+.feed{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 100vh;
+    width: 100vh;
+    border: solid 1px rgb(194, 187, 187);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7vh;
+   overflow: auto;
+}
+
+.post{
+    border: solid 1px rgb(194, 187, 187);
+    border-radius: 10px;
+    width: 45vw;
+    min-height: 73vh;
+    margin-bottom: 5vh;
+}
+
+.postHeader > h2{
+    margin-left: 3vh;
+}
+
+.videoBox{
+    height: 50vh;
+    width: 100%;
+    overflow: hidden;
+    border-bottom:  solid 1px rgb(194, 187, 187);
+    border-radius: 10px;
+}
+
+.media{
+    border-radius: 9px;
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+}
+
+.postBottom{
+    margin-left: 1.3vw;
+    padding-top: 2vh;
+    min-height: 8vh;
+    width: 95%;
+}
+
+.bottomWrapper{
+    display: flex;
+    justify-content: space-between;
+}
+
+.caption{
+    inline-size:  40vw;
+    overflow-wrap: break-word;
+}
+
+.userName{
+    font-weight: bolder;
+    width: 5%;
+}
+
+
+
+
+
+@media only screen and (max-width: 1024px){
+    .post{
+        border: solid 1px rgb(194, 187, 187);
+        border-radius: 10px;
+        width: 80vw;
+        min-height: 73vh;
+    }
+
+    .videoBox{
+        width: 100%;
+        overflow: hidden;
+        border-bottom:  solid 1px rgb(194, 187, 187);
+        border-radius: 10px;
+    }
+
+    .postBottom{
+        margin-left: 3vw;
+        font-size: 10pt;
+    }
+
+    .caption{
+        inline-size:  70vw;
+    }
+  
+}
+@media only screen and (max-width: 480px){
+    .post{
+        border: solid 1px rgb(194, 187, 187);
+        border-radius: 10px;
+        width: 90vw;
+        min-height: 73vh;
+    }
+
+    .videoBox{
+        width: 100%;
+        overflow: hidden;
+        border-bottom:  solid 1px rgb(194, 187, 187);
+        border-radius: 10px;
+    }
+
+    .postBottom{
+        margin-left: 3vw;
+        font-size: 10pt;
+    }
+
+    .caption{
+        inline-size:  80vw;
+    }
+
+}

@@ -1,0 +1,10 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.formText{
+    padding: 2px;
+    resize: none;
+    overflow-y: hidden;
+}

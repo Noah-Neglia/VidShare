@@ -1,0 +1,94 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header{
+    padding-left: 3vw;
+    padding-right: 1vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh;
+    border:  solid 1px rgb(194, 187, 187);;
+}
+
+.nameAndLogo{
+    display: flex;
+    align-items: center;
+}
+
+.vidShare{
+    display: flex;
+    }
+    
+    #share{
+    margin-top: .5vh;
+    margin-left: .5vh;
+    color: rgb(14, 176, 240);
+    }
+
+    .logo{
+        height: 12vh;
+    }
+
+    .rightActions{
+        width: 40vw;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    #addPost{
+        background-color: rgb(14, 176, 240);
+    }
+        
+
+    .rightActions > p{
+        padding-top: 2vh;
+    }
+
+
+
+    @media only screen and (min-width: 1024px){
+        #addPost{
+           display: none;
+        }
+      }
+
+    @media only screen and (max-width: 1024px){
+
+        #addPost{
+            margin-right: 6.5vw;
+            background-color: rgb(14, 176, 240);
+            
+        }
+      }
+
+    @media only screen and (max-width: 480px){
+
+        .rightActions > p{
+          font-size: 10pt;
+          width: 15vw;
+          display: flex;
+        }
+
+        .logo{
+            display: none;
+        }
+
+        #logout{
+            font-size: 10pt;
+            padding: 4px;
+         
+        }
+
+        #addPost{
+            font-size: 10pt;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+ 
+      }
+      

@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+    padding:  0px;
+}
+
+
+.container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.rightContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.span{
+    border: solid 1px rgb(194, 187, 187);
+}
