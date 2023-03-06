@@ -38,7 +38,7 @@ const Feed = () => {
                     <div className={feedStyle.post}>
                         <div className={feedStyle.videoBox}>
                             <div className={feedStyle.videoBoxWrapper}>
-                                <video className={feedStyle.media} src={require(`/Users/noahneglia/Desktop/vidShare/client/src/content/${post.content}`)} alt="A video posted by a user" controls>
+                                <video className={feedStyle.media} src={require(`../content/${post.content}`)} alt="A video posted by a user" controls>
                                  <source src="CityVid.mp4" type="video/mp4"></source>
                                 </video>
                             </div>

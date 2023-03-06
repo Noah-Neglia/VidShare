@@ -59,7 +59,7 @@ const Index = () => {
   return (
     <div className={registerCss.container}>
     <div className={registerCss.leftSide}>
-    <img className={registerCss.logo} src={require('/Users/noahneglia/Desktop/vidShare/client/src/images/logoBlue.jpeg')}
+    <img className={registerCss.logo} src={require('../images/logoBlue.jpeg')}
             alt="The vidshare logo is a black video camera with a blue background" />
     </div>
     <div className={registerCss.formDiv}>
@@ -70,7 +70,7 @@ const Index = () => {
              <h1 id={registerCss.vid}>Vid</h1>
             <h1 id={registerCss.share}>Share</h1>
             </div>
-            <img className={registerCss.logoResponsive} src={require('/Users/noahneglia/Desktop/vidShare/client/src/images/logo.jpeg')}
+            <img className={registerCss.logoResponsive} src={require('../images/logo.jpeg')}
             alt="The vidshare logo is a black video camera" />
         </div>
 

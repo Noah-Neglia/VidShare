@@ -47,7 +47,7 @@ const Login = () => {
     return (
         <div className={loginCss.container}>
             <div className={loginCss.leftSide}>
-           <img className={loginCss.logo} src={require('/Users/noahneglia/Desktop/vidShare/client/src/images/logoBlue.jpeg')}
+           <img className={loginCss.logo} src={require('../images/logoBlue.jpeg')}
             alt="The vidshare logo is a black video camera with a blue background" />
                
             </div>
@@ -58,7 +58,7 @@ const Login = () => {
                             <h1 id={loginCss.vid}>Vid</h1>
                             <h1 id={loginCss.share}>Share</h1>
                         </div>
-                        <img className={loginCss.logoResponsive} src={require('/Users/noahneglia/Desktop/vidShare/client/src/images/logo.jpeg')}
+                        <img className={loginCss.logoResponsive} src={require('../images/logo.jpeg')}
                         alt="The vidshare logo is a black video camera" />
                     </div>
                     <h3>Login</h3>
