@@ -11,11 +11,6 @@ const Header = () => {
 
   const [currentUser, setCurrentUser] = useState({})
 
-  const [phoneScreen, setPhoneScreen] = useState(window.innerWidth > 481)
-
-  const [tabletScreen, setTabletScreen] = useState(window.innerWidth > 1025)
-
-
   const [screen, setScreen] = useState(window.innerWidth > 1024)
 
   const screenReSize = () =>{
@@ -52,7 +47,7 @@ const Header = () => {
             <h1 id={headerStyle.vid}>Vid</h1>
             <h1 id={headerStyle.share}>Share</h1>
         </div>
-        <img className={headerStyle.logo} src={require('/Users/noahneglia/Desktop/vidShare/client/src/images/logo.jpeg')}
+        <img className={headerStyle.logo} src={require('../images/logo.jpeg')}
             alt="The vidshare logo is a black video camera" />
       </div>
       <div className={headerStyle.rightActions}>
